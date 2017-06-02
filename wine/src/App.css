@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.display-wine {
+  width: 50%;
+  height: 500px;
+  border-radius: 15px;
+  border: 1px black solid;
+}
+
+.winelist {
+  width: 40%;
+}
+.wine-detail {
+  padding: 2%;
+}
+
+.form {
+  margin: 5%;
+}
+
+.hiddenlist {
+  height: 500px;
+  overflow: scroll;
+  border-radius: 15px;
+  background-color: #ddf;
+  padding: 2%;
+}
+
+.wine:hover {
+  background-color: #fdd;
+  padding: 2%;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
